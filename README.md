@@ -67,7 +67,7 @@ So, here are the stages:
 
 ```bash
 # Determine the unique values
-dvc run -d unique_values.py -d raw_data.txt -o unique_values.json "python unique_values.py && rm MAPPING_IS_VALID"
+dvc run -d unique_values.py -d raw_data.txt -o unique_values.json "python unique_values.py && rm -f MAPPING_IS_VALID"
 ```
 
 and
