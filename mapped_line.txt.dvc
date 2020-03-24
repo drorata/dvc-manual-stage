@@ -1,0 +1,17 @@
+md5: f7ea0556a120e5cd4c34f143241992d5
+cmd: python mapping.py
+deps:
+- md5: d41d8cd98f00b204e9800998ecf8427e
+  path: MAPPING_IS_VALID
+- md5: 169745eb0aaf9009de0d9469075e54fb
+  path: mapping.py
+- md5: 5147783d93829b50045de91fd81b3948
+  path: mapping.json
+- md5: 818c2331bcc9d48a4ec9e1129f373400
+  path: unique_values.json
+outs:
+- md5: 0ead1432f1b62aa9749ea04552f10805
+  path: mapped_line.txt
+  cache: true
+  metric: false
+  persist: false

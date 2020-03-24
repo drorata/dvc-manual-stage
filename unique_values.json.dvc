@@ -1,0 +1,13 @@
+md5: 670e1a4fc8e7dccf50e701b4ae001c20
+cmd: python unique_values.py && rm -f MAPPING_IS_VALID
+deps:
+- md5: 8180ea09f9a4bb8b145df6d06f36cff7
+  path: unique_values.py
+- md5: 00ad748daf06546c61bfce03c05b33c3
+  path: raw_data.txt
+outs:
+- md5: 818c2331bcc9d48a4ec9e1129f373400
+  path: unique_values.json
+  cache: true
+  metric: false
+  persist: false

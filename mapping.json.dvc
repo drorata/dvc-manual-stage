@@ -1,0 +1,7 @@
+md5: ec26f80e5cdd453f6d35eeaba598174b
+outs:
+- md5: 5147783d93829b50045de91fd81b3948
+  path: mapping.json
+  cache: true
+  metric: false
+  persist: false

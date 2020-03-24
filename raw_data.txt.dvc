@@ -1,0 +1,7 @@
+md5: 879921eb9f78a8427650db5b1904ac3a
+outs:
+- md5: 00ad748daf06546c61bfce03c05b33c3
+  path: raw_data.txt
+  cache: true
+  metric: false
+  persist: false

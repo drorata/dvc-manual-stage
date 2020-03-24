@@ -1,0 +1,7 @@
+.vscode
+.pytest_cache/
+/unique_values.json
+/raw_data.txt
+/mapped_line.txt
+/mapping.json
+MAPPING_IS_VALID
